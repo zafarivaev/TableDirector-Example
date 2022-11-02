@@ -1,3 +1,3 @@
 # TableDirector
 
-A description of this package.
+Avoid lengthy UITableViewDataSource/UITableViewDelegate conformances and speed up the development of UITableView
