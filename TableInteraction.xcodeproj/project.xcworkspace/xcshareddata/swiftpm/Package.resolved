@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "tabledirector",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zafarivaev/TableDirector",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9ad69b13581f3ac5dbc106a46ea4522ce5e4ac47"
+      }
+    }
+  ],
+  "version" : 2
+}

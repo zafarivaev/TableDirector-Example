@@ -7,20 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF024846290E6971007A3765 /* LeftRightTitlesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF024844290E6971007A3765 /* LeftRightTitlesTableViewCell.swift */; };
+		EF024847290E6971007A3765 /* LeftRightTitlesTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF024845290E6971007A3765 /* LeftRightTitlesTableViewCellModel.swift */; };
+		EF02484D290E6CD7007A3765 /* TitleSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02484B290E6CD7007A3765 /* TitleSwitchTableViewCell.swift */; };
+		EF02484E290E6CD7007A3765 /* TitleSwitchTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02484C290E6CD7007A3765 /* TitleSwitchTableViewCellModel.swift */; };
+		EF024854290E7033007A3765 /* TitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF024853290E7033007A3765 /* TitleHeaderView.swift */; };
+		EF024856290E703D007A3765 /* TitleHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF024855290E703D007A3765 /* TitleHeaderViewModel.swift */; };
+		EF024859291270D4007A3765 /* TableDirector in Frameworks */ = {isa = PBXBuildFile; productRef = EF024858291270D4007A3765 /* TableDirector */; };
+		EF02485B291270ED007A3765 /* UIView+ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02485A291270ED007A3765 /* UIView+ReuseIdentifier.swift */; };
 		EF28947F28C4EFBA00B2E6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28947E28C4EFBA00B2E6DB /* AppDelegate.swift */; };
 		EF28948128C4EFBA00B2E6DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28948028C4EFBA00B2E6DB /* SceneDelegate.swift */; };
 		EF28948328C4EFBA00B2E6DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28948228C4EFBA00B2E6DB /* ViewController.swift */; };
-		EF28948628C4EFBA00B2E6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF28948428C4EFBA00B2E6DB /* Main.storyboard */; };
 		EF28948828C4EFBD00B2E6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF28948728C4EFBD00B2E6DB /* Assets.xcassets */; };
 		EF28948B28C4EFBD00B2E6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF28948928C4EFBD00B2E6DB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF024844290E6971007A3765 /* LeftRightTitlesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRightTitlesTableViewCell.swift; sourceTree = "<group>"; };
+		EF024845290E6971007A3765 /* LeftRightTitlesTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRightTitlesTableViewCellModel.swift; sourceTree = "<group>"; };
+		EF02484B290E6CD7007A3765 /* TitleSwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSwitchTableViewCell.swift; sourceTree = "<group>"; };
+		EF02484C290E6CD7007A3765 /* TitleSwitchTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSwitchTableViewCellModel.swift; sourceTree = "<group>"; };
+		EF024853290E7033007A3765 /* TitleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHeaderView.swift; sourceTree = "<group>"; };
+		EF024855290E703D007A3765 /* TitleHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHeaderViewModel.swift; sourceTree = "<group>"; };
+		EF02485A291270ED007A3765 /* UIView+ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ReuseIdentifier.swift"; sourceTree = "<group>"; };
 		EF28947B28C4EFBA00B2E6DB /* TableInteraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableInteraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF28947E28C4EFBA00B2E6DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF28948028C4EFBA00B2E6DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EF28948228C4EFBA00B2E6DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF28948528C4EFBA00B2E6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF28948728C4EFBD00B2E6DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF28948A28C4EFBD00B2E6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF28948C28C4EFBD00B2E6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,12 +44,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF024859291270D4007A3765 /* TableDirector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF024843290E6945007A3765 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF02484A290E6CC0007A3765 /* Title Switch Cell */,
+				EF024849290E6C81007A3765 /* Left Right Titles Cell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF024848290E6C3F007A3765 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF28948928C4EFBD00B2E6DB /* LaunchScreen.storyboard */,
+				EF28948728C4EFBD00B2E6DB /* Assets.xcassets */,
+				EF28948C28C4EFBD00B2E6DB /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF024849290E6C81007A3765 /* Left Right Titles Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EF024844290E6971007A3765 /* LeftRightTitlesTableViewCell.swift */,
+				EF024845290E6971007A3765 /* LeftRightTitlesTableViewCellModel.swift */,
+			);
+			path = "Left Right Titles Cell";
+			sourceTree = "<group>";
+		};
+		EF02484A290E6CC0007A3765 /* Title Switch Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EF02484B290E6CD7007A3765 /* TitleSwitchTableViewCell.swift */,
+				EF02484C290E6CD7007A3765 /* TitleSwitchTableViewCellModel.swift */,
+			);
+			path = "Title Switch Cell";
+			sourceTree = "<group>";
+		};
+		EF02484F290E6FCD007A3765 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				EF024852290E7015007A3765 /* Title Header View */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		EF024850290E6FD8007A3765 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EF28947E28C4EFBA00B2E6DB /* AppDelegate.swift */,
+				EF28948028C4EFBA00B2E6DB /* SceneDelegate.swift */,
+				EF02485A291270ED007A3765 /* UIView+ReuseIdentifier.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EF024851290E6FE1007A3765 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EF28948228C4EFBA00B2E6DB /* ViewController.swift */,
+				EF02484F290E6FCD007A3765 /* Headers */,
+				EF024843290E6945007A3765 /* Cells */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EF024852290E7015007A3765 /* Title Header View */ = {
+			isa = PBXGroup;
+			children = (
+				EF024853290E7033007A3765 /* TitleHeaderView.swift */,
+				EF024855290E703D007A3765 /* TitleHeaderViewModel.swift */,
+			);
+			path = "Title Header View";
+			sourceTree = "<group>";
+		};
 		EF28947228C4EFBA00B2E6DB = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +144,9 @@
 		EF28947D28C4EFBA00B2E6DB /* TableInteraction */ = {
 			isa = PBXGroup;
 			children = (
-				EF28947E28C4EFBA00B2E6DB /* AppDelegate.swift */,
-				EF28948028C4EFBA00B2E6DB /* SceneDelegate.swift */,
-				EF28948228C4EFBA00B2E6DB /* ViewController.swift */,
-				EF28948428C4EFBA00B2E6DB /* Main.storyboard */,
-				EF28948728C4EFBD00B2E6DB /* Assets.xcassets */,
-				EF28948928C4EFBD00B2E6DB /* LaunchScreen.storyboard */,
-				EF28948C28C4EFBD00B2E6DB /* Info.plist */,
+				EF024850290E6FD8007A3765 /* App */,
+				EF024851290E6FE1007A3765 /* Presentation */,
+				EF024848290E6C3F007A3765 /* Supporting Files */,
 			);
 			path = TableInteraction;
 			sourceTree = "<group>";
@@ -83,6 +167,9 @@
 			dependencies = (
 			);
 			name = TableInteraction;
+			packageProductDependencies = (
+				EF024858291270D4007A3765 /* TableDirector */,
+			);
 			productName = TableInteraction;
 			productReference = EF28947B28C4EFBA00B2E6DB /* TableInteraction.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +198,9 @@
 				Base,
 			);
 			mainGroup = EF28947228C4EFBA00B2E6DB;
+			packageReferences = (
+				EF024857291270D4007A3765 /* XCRemoteSwiftPackageReference "TableDirector" */,
+			);
 			productRefGroup = EF28947C28C4EFBA00B2E6DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +217,6 @@
 			files = (
 				EF28948B28C4EFBD00B2E6DB /* LaunchScreen.storyboard in Resources */,
 				EF28948828C4EFBD00B2E6DB /* Assets.xcassets in Resources */,
-				EF28948628C4EFBA00B2E6DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +227,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF024847290E6971007A3765 /* LeftRightTitlesTableViewCellModel.swift in Sources */,
+				EF024846290E6971007A3765 /* LeftRightTitlesTableViewCell.swift in Sources */,
+				EF02485B291270ED007A3765 /* UIView+ReuseIdentifier.swift in Sources */,
 				EF28948328C4EFBA00B2E6DB /* ViewController.swift in Sources */,
+				EF02484D290E6CD7007A3765 /* TitleSwitchTableViewCell.swift in Sources */,
 				EF28947F28C4EFBA00B2E6DB /* AppDelegate.swift in Sources */,
+				EF024854290E7033007A3765 /* TitleHeaderView.swift in Sources */,
+				EF02484E290E6CD7007A3765 /* TitleSwitchTableViewCellModel.swift in Sources */,
+				EF024856290E703D007A3765 /* TitleHeaderViewModel.swift in Sources */,
 				EF28948128C4EFBA00B2E6DB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +243,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF28948428C4EFBA00B2E6DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF28948528C4EFBA00B2E6DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF28948928C4EFBD00B2E6DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,18 +379,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MJWVGRX9VD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TableInteraction/Info.plist;
+				INFOPLIST_FILE = "TableInteraction/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zafar.finance-ledger.TableInteraction";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zafar.TableInteraction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,18 +407,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MJWVGRX9VD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TableInteraction/Info.plist;
+				INFOPLIST_FILE = "TableInteraction/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zafar.finance-ledger.TableInteraction";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zafar.TableInteraction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -360,6 +448,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF024857291270D4007A3765 /* XCRemoteSwiftPackageReference "TableDirector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zafarivaev/TableDirector";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF024858291270D4007A3765 /* TableDirector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF024857291270D4007A3765 /* XCRemoteSwiftPackageReference "TableDirector" */;
+			productName = TableDirector;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EF28947328C4EFBA00B2E6DB /* Project object */;
 }
